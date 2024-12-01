@@ -1,0 +1,16 @@
+cabal-version: 2.2
+name:           adventofcode2024
+version:        2024
+author:         Jean-Baptiste Mazon
+copyright:      2024
+build-type:     Simple
+
+common deps
+  build-depends: base
+  default-language: Haskell2010
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
+
+executable day01
+  import: deps
+  main-is: day01.lhs
+  ghc-options: -Wno-incomplete-patterns
