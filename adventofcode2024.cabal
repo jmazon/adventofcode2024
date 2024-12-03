@@ -18,3 +18,9 @@ executable day01
 executable day02
   import: deps
   main-is: day02.lhs
+
+executable day03
+  import: deps
+  main-is: day03.lhs
+  build-depends: megaparsec
+  default-extensions: LambdaCase
