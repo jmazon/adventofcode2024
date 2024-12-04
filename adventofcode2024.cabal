@@ -24,3 +24,8 @@ executable day03
   main-is: day03.lhs
   build-depends: megaparsec
   default-extensions: LambdaCase
+
+executable day04
+  import: deps
+  main-is: day04.lhs
+  build-depends: array, linear
