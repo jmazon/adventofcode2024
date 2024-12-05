@@ -29,3 +29,9 @@ executable day04
   import: deps
   main-is: day04.lhs
   build-depends: array, linear
+
+executable day05
+  import: deps
+  main-is: day05.lhs
+  build-depends: containers, split
+  ghc-options: -Wno-incomplete-uni-patterns
