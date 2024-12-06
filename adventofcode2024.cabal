@@ -35,3 +35,10 @@ executable day05
   main-is: day05.lhs
   build-depends: containers, split
   ghc-options: -Wno-incomplete-uni-patterns
+
+executable day06
+  import: deps
+  main-is: day06.lhs
+  build-depends: array, linear
+  default-extensions: FlexibleInstances
+  ghc-options: -Wno-incomplete-uni-patterns
