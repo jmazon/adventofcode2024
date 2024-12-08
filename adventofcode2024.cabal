@@ -47,3 +47,9 @@ executable day07
   import: deps
   main-is: day07.lhs
   ghc-options: -Wno-incomplete-uni-patterns -Wno-incomplete-patterns
+
+executable day08
+  import: deps
+  main-is: day08.lhs
+  build-depends: array, containers, linear
+  default-extensions: TupleSections
