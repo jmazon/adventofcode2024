@@ -53,3 +53,9 @@ executable day08
   main-is: day08.lhs
   build-depends: array, containers, linear
   default-extensions: TupleSections
+
+executable day09
+  import: deps
+  main-is: day09.lhs
+  build-depends: array, fingertree
+  default-extensions: FlexibleContexts,FlexibleInstances,LambdaCase,MultiParamTypeClasses
