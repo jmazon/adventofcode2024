@@ -59,3 +59,8 @@ executable day09
   main-is: day09.lhs
   build-depends: array, fingertree
   default-extensions: FlexibleContexts,FlexibleInstances,LambdaCase,MultiParamTypeClasses
+
+executable day10
+  import: deps
+  main-is: day10.lhs
+  build-depends: array, containers, linear
