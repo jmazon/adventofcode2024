@@ -64,3 +64,9 @@ executable day10
   import: deps
   main-is: day10.lhs
   build-depends: array, containers, linear
+
+executable day11
+  import: deps
+  main-is: day11.lhs
+  build-depends: containers, mtl
+  default-extensions: LambdaCase
