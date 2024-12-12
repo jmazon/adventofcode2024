@@ -70,3 +70,9 @@ executable day11
   main-is: day11.lhs
   build-depends: containers, mtl
   default-extensions: LambdaCase
+
+executable day12
+  import: deps
+  main-is: day12.lhs
+  build-depends: array, equivalence, mtl
+  default-extensions: FlexibleContexts
