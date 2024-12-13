@@ -76,3 +76,9 @@ executable day12
   main-is: day12.lhs
   build-depends: array, equivalence, mtl
   default-extensions: FlexibleContexts
+
+executable day13
+  import: deps
+  main-is: day13.lhs
+  build-depends: linear, split
+  default-extensions: PatternSynonyms,ViewPatterns
