@@ -82,3 +82,9 @@ executable day13
   main-is: day13.lhs
   build-depends: linear, split
   default-extensions: PatternSynonyms,ViewPatterns
+
+executable day14
+  import: deps
+  main-is: day14.lhs
+  build-depends: arithmoi
+  default-extensions: DataKinds,LambdaCase,ScopedTypeVariables,TypeApplications
