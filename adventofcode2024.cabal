@@ -88,3 +88,10 @@ executable day14
   main-is: day14.lhs
   build-depends: arithmoi
   default-extensions: DataKinds,LambdaCase,ScopedTypeVariables,TypeApplications
+
+executable day15
+  import: deps
+  main-is: day15.lhs
+  build-depends: array, containers, mtl, transformers
+  default-extensions: AllowAmbiguousTypes,FlexibleContexts,LambdaCase,ScopedTypeVariables,TypeApplications
+  ghc-options: -Wno-incomplete-patterns -Wno-incomplete-uni-patterns
