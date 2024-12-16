@@ -81,3 +81,8 @@ executable day13
   main-is: day13.hs
   build-depends: lens, linear, split
   default-extensions: MultiWayIf
+
+executable day14
+  import: deps
+  main-is: day14.hs
+  build-depends: array
