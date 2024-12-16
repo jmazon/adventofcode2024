@@ -95,3 +95,9 @@ executable day15
   build-depends: array, containers, mtl, transformers
   default-extensions: AllowAmbiguousTypes,FlexibleContexts,LambdaCase,ScopedTypeVariables,TypeApplications
   ghc-options: -Wno-incomplete-patterns -Wno-incomplete-uni-patterns
+
+executable day16
+  import: deps
+  main-is: day16.lhs
+  build-depends: array, containers, linear
+  default-extensions: RecordWildCards
