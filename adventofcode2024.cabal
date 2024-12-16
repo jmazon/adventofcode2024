@@ -92,3 +92,8 @@ executable day15
   main-is: day15.hs
   build-depends: array, containers, mtl, transformers
   default-extensions: FlexibleContexts,LambdaCase
+
+executable day16
+  import: deps
+  main-is: day16.hs
+  build-depends: array, containers, linear
