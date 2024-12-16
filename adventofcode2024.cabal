@@ -69,3 +69,9 @@ executable day11
   import: deps
   main-is: day11.hs
   build-depends: containers, mtl
+
+executable day12
+  import: deps
+  main-is: day12.hs
+  build-depends: array, equivalence, mtl
+  default-extensions: FlexibleContexts
