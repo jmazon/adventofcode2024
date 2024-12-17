@@ -97,3 +97,9 @@ executable day16
   import: deps
   main-is: day16.hs
   build-depends: array, containers, linear
+
+executable day17
+  import: deps
+  main-is: day17.hs
+  build-depends: lens, mtl, sbv, vector
+  default-extensions: FlexibleContexts,TemplateHaskell
