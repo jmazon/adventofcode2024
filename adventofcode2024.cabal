@@ -101,3 +101,10 @@ executable day16
   main-is: day16.lhs
   build-depends: array, containers, linear
   default-extensions: RecordWildCards
+
+executable day17
+  import: deps
+  main-is: day17.lhs
+  build-depends: lens, sbv
+  default-extensions: DataKinds,TemplateHaskell
+  ghc-options: -Wno-incomplete-patterns -Wno-incomplete-uni-patterns
