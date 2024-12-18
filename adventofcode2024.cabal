@@ -103,3 +103,9 @@ executable day17
   main-is: day17.hs
   build-depends: lens, mtl, sbv, vector
   default-extensions: FlexibleContexts,TemplateHaskell
+
+executable day18
+  import: deps
+  main-is: day18.hs
+  build-depends: containers
+  default-extensions: TupleSections
