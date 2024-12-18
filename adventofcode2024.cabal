@@ -108,3 +108,9 @@ executable day17
   build-depends: lens, sbv
   default-extensions: DataKinds,TemplateHaskell
   ghc-options: -Wno-incomplete-patterns -Wno-incomplete-uni-patterns
+
+executable day18
+  import: deps
+  main-is: day18.lhs
+  build-depends: containers,equivalence,lens,linear
+  default-extensions: LambdaCase,TupleSections
