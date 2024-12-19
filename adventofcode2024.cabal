@@ -114,3 +114,8 @@ executable day18
   main-is: day18.lhs
   build-depends: containers,equivalence,lens,linear
   default-extensions: LambdaCase,TupleSections
+
+executable day19
+  import: deps
+  main-is: day19.hs
+  build-depends: array
