@@ -119,3 +119,9 @@ executable day19
   import: deps
   main-is: day19.hs
   build-depends: array
+
+executable day20
+  import: deps
+  main-is: day20.lhs
+  build-depends: array, containers, linear
+  default-extensions: MultiWayIf, TupleSections
