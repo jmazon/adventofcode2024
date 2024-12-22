@@ -131,3 +131,8 @@ executable day21
   main-is: day21.hs
   build-depends: array, containers, lens, linear, data-memocombinators, split
   default-extensions: TupleSections
+
+executable day22
+  import: deps
+  main-is: day22.hs
+  build-depends: containers
