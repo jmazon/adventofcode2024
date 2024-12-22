@@ -125,3 +125,9 @@ executable day20
   main-is: day20.lhs
   build-depends: array, containers, linear
   default-extensions: MultiWayIf, TupleSections
+
+executable day21
+  import: deps
+  main-is: day21.hs
+  build-depends: array, containers, lens, linear, data-memocombinators, split
+  default-extensions: TupleSections
