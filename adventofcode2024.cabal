@@ -136,3 +136,8 @@ executable day22
   import: deps
   main-is: day22.hs
   build-depends: containers
+
+executable day23
+  import: deps
+  main-is: day23.hs
+  build-depends: containers
