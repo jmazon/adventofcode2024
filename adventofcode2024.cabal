@@ -146,3 +146,9 @@ executable day24
   import: deps
   main-is: day24a.hs
   build-depends: containers
+
+executable day25
+  import: deps
+  main-is: day25.hs
+  build-depends: split
+  default-extensions: TypeApplications
